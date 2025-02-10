@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+    outline: none;
+    border: none;
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+nav{
+    background-color:#ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 1rem;
+    align-items: center;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav div img{
+    width: 55px;
+}
+
+nav ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+/* From Uiverse.io by garerim */ 
+.container-input {
+    position: relative;
+}
+
+.input {
+    width: 150px;
+    padding: 10px 0px 10px 40px;
+    border-radius: 9999px;
+    border: solid 1px #333;
+    transition: all .2s ease-in-out;
+    outline: none;
+    opacity: 0.8;
+}
+
+.container-input svg {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+}
+
+.input:focus {
+    opacity: 1;
+    width: 250px;
+}
+[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    padding: 4px 0;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid rgba(240, 240, 240, 0);
+}
+li a:hover{
+    color: rgb(240, 240, 240);
+    transition: 0.4s;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+header{
+    text-align: center;
+    margin-top: 25px;
+}
